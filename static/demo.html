@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northwind Dental Clinic</title>
+<style>
+  body { margin:0; font:16px/1.6 system-ui, sans-serif; color:#1c2330; background:#fff; }
+  header { background:#0f766e; color:#fff; padding:56px 24px; text-align:center; }
+  header h1 { margin:0 0 8px; font-size:34px; }
+  header p { margin:0; opacity:.9; }
+  main { max-width:860px; margin:0 auto; padding:32px 24px 120px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:16px; }
+  .card { border:1px solid #e2e5ea; border-radius:12px; padding:18px; }
+  .card b { display:block; margin-bottom:4px; }
+  .price { color:#0f766e; font-weight:600; }
+  .hint { margin-top:32px; padding:16px 18px; background:#f0fdfa; border-left:4px solid #0f766e; border-radius:6px; }
+  small { color:#667085; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Northwind Dental Clinic</h1>
+  <p>Friendly dental care at 14 Harbour Street</p>
+</header>
+<main>
+  <h2>Our services</h2>
+  <div class="grid">
+    <div class="card"><b>Check-up</b><span class="price">£45</span></div>
+    <div class="card"><b>Hygienist cleaning</b><span class="price">£65</span></div>
+    <div class="card"><b>Whitening consultation</b><span class="price">Free</span></div>
+    <div class="card"><b>Emergency appointment</b><span class="price">£80</span></div>
+  </div>
+  <div class="hint">
+    <b>Try the assistant in the corner.</b> Ask about prices or opening hours, book an appointment, or ask to speak to a person.
+  </div>
+  <p><small>Fictional business used to demonstrate the chat assistant.</small></p>
+</main>
+<script src="/widget.js" data-title="Northwind Dental" data-color="#0f766e"
+        data-greeting="Hi! I can answer questions about the clinic or book an appointment for you."></script>
+</body>
+</html>

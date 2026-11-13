@@ -1,0 +1,20 @@
+{
+  "name": "Northwind Dental Clinic",
+  "timezone": "Europe/London",
+  "slot_minutes": 30,
+  "hours": {
+    "mon": ["09:00", "17:00"],
+    "tue": ["09:00", "17:00"],
+    "wed": ["09:00", "17:00"],
+    "thu": ["09:00", "19:00"],
+    "fri": ["09:00", "16:00"],
+    "sat": ["10:00", "13:00"],
+    "sun": null
+  },
+  "services": [
+    {"name": "Check-up", "price": "£45"},
+    {"name": "Hygienist cleaning", "price": "£65"},
+    {"name": "Teeth whitening consultation", "price": "free"},
+    {"name": "Emergency appointment", "price": "£80"}
+  ]
+}
